@@ -1,10 +1,10 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   useNavigate,
-} from "react-router-dom";
+} from "react-router-dom"; // Use HashRouter
 
 import { Activity, Menu, X, Face } from "lucide-react";
 import Home from "./components/Home";
@@ -24,7 +24,7 @@ const App = () => {
         <header className="bg-white shadow-md">
           <nav className="container mx-auto px-4 py-4">
             <div className="flex justify-between items-center">
-              <Link to="/FitLife" className="flex items-center space-x-2">
+              <Link to="/" className="flex items-center space-x-2">
                 <Activity className="text-blue-600 w-8 h-8" />
                 <span className="text-xl font-bold text-gray-800">FitLife</span>
               </Link>
@@ -53,7 +53,7 @@ const App = () => {
 
         <main className="container mx-auto px-4 py-8">
           <Routes>
-            <Route path="/FitLife" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/workouts" element={<Workouts />} />
             <Route path="/nutrition" element={<Nutrition />} />
             <Route path="/healthtips" element={<HealthTips />} />
@@ -135,7 +135,7 @@ const NavLinks = ({ mobile, footer, setIsMenuOpen }) => {
     <>
       <button
         className={`${baseClasses}`}
-        onClick={() => handleNavigation("/FitLife")}
+        onClick={() => handleNavigation("/")}
       >
         Home
       </button>
