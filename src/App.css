@@ -1,0 +1,150 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables */
+:root {
+  --main-color: #007bff;
+  --secondary-color: #0056b3;
+  --font-family: Arial, sans-serif;
+  --background-color: #f4f4f4;
+  --navbar-color: #333;
+  --footer-color: #333;
+  --text-color: white;
+  --border-radius: 5px;
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Global styles */
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Header styles */
+.header {
+  background-color: var(--navbar-color);
+  padding: 1em 0;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+}
+
+.nav-link {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+
+/* Main content styles */
+.main-content {
+  flex-grow: 1; /* Allow main content to take up remaining space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+/* CTA button styles */
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: var(--main-color);
+  color: var(--text-color);
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background: var(--secondary-color);
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 1em;
+  background: var(--footer-color);
+  color: var(--text-color);
+  border-top: 1px solid var(--main-color);
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav-link {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-button {
+    padding: 5px 10px;
+  }
+}
+
+/* Additional styles */
+.about,
+.nutrition,
+.workouts,
+.home {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin: 10px;
+}
+
+.about h1,
+.nutrition h1,
+.workouts h1,
+.home h1 {
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+
+.about p,
+.nutrition p,
+.workouts p,
+.home p {
+  margin-bottom: 20px;
+}
+
+.about ul,
+.nutrition ul,
+.workouts ul,
+.home ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about ul li,
+.nutrition ul li,
+.workouts ul li,
+.home ul li {
+  margin-bottom: 10px;
+}
