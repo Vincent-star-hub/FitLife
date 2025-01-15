@@ -58,7 +58,7 @@ const App = () => {
 
         <main className="container mx-auto px-4 py-8">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/FitLife" element={<Home />} />
             <Route path="/workouts" element={<Workouts />} />
             <Route path="/nutrition" element={<Nutrition />} />
             <Route path="/healthtips" element={<HealthTips />} />
@@ -140,7 +140,7 @@ const NavLinks = ({ mobile, footer, setIsMenuOpen }) => {
     <>
       <button
         className={`${baseClasses}`}
-        onClick={() => handleNavigation("/")}
+        onClick={() => handleNavigation("/FitLife")}
       >
         Home
       </button>

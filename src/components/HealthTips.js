@@ -138,7 +138,7 @@ const HealthTipsPage = () => {
         </div>
       </div>
 
-      {/* Quick Tips Section - Replacing Newsletter Signup */}
+      {/* Quick Tips Section */}
       <div className="bg-blue-600 text-white p-8 rounded-lg shadow-md">
         <h2 className="text-3xl font-semibold mb-6 text-center">
           Quick Health Tips

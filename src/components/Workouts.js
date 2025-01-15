@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import WorkoutDetails from "./Workouts/WorkoutDetails";
+import beginnerImage from "../images/beginner-fullbody.jpg";
+import strengthTraining from "../images/strength-training.jpg";
 
 const Workouts = () => {
   const [showRecommendations, setShowRecommendations] = useState(false);
@@ -15,7 +17,7 @@ const Workouts = () => {
       description: "Perfect for those just starting their fitness journey",
       duration: "45 mins",
       level: "Beginner",
-      image: "/images/beginner-fullbody.jpg",
+      image: beginnerImage,
       imageCredit:
         "https://www.google.com/search?q=hiit%20cardio%20image&udm=2&tbs=rimg:CSzmXeNP7dz3YdNiyNgPbBEPsgIAwAIA2AIA4AIA&cs=1&hl=en&sa=X&ved=0CBoQuIIBahcKEwiwt_zp1_SKAxUAAAAAHQAAAAAQJQ&biw=1920&bih=997&dpr=1#vhid=JAAepfWe6BEmKM&vssid=mosaic",
     },
@@ -24,7 +26,7 @@ const Workouts = () => {
       description: "Build muscle and increase strength",
       duration: "60 mins",
       level: "Intermediate",
-      image: "/images/strength-training.jpg",
+      image: strengthTraining,
       imageCredit:
         "https://www.google.com/search?q=strength+training&sca_esv=7b844f1bc8109de5&udm=2&cs=1&hl=en&biw=1920&bih=997&ei=QhSGZ7auOqzt1e8Pt9THkQw&oq=strenght&gs_lp=EgNpbWciCHN0cmVuZ2h0KgIIADINEAAYgAQYsQMYQxiKBTINEAAYgAQYsQMYQxiKBTINEAAYgAQYsQMYQxiKBTIKEAAYgAQYQxiKBTINEAAYgAQYsQMYQxiKBTIKEAAYgAQYsQMYCjIKEAAYgAQYsQMYCjIKEAAYgAQYsQMYCjIKEAAYgAQYsQMYCjINEAAYgAQYsQMYgwEYCkimHVAAWPkXcAB4AJABAJgBUqAB0gSqAQE4uAEDyAEA-AEBmAIIoALnBMICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAgcQABiABBgKwgIFEAAYgASYAwCSBwE4oAflLQ&sclient=img#vhid=ZSOFOYNdLjpMfM&vssid=mosaic&sca_esv=7b844f1bc8109de5&udm=2&cs=1&hl=en&biw=1920&bih=997&ei=QhSGZ7auOqzt1e8Pt9THkQw&oq=strenght&gs_lp=EgNpbWciCHN0cmVuZ2h0KgIIADINEAAYgAQYsQMYQxiKBTINEAAYgAQYsQMYQxiKBTINEAAYgAQYsQMYQxiKBTIKEAAYgAQYQxiKBTINEAAYgAQYsQMYQxiKBTIKEAAYgAQYsQMYCjIKEAAYgAQYsQMYCjIKEAAYgAQYsQMYCjIKEAAYgAQYsQMYCjINEAAYgAQYsQMYgwEYCkimHVAAWPkXcAB4AJABAJgBUqAB0gSqAQE4uAEDyAEA-AEBmAIIoALnBMICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAgcQABiABBgKwgIFEAAYgASYAwCSBwE4oAflLQ&sclient=img%23imgrc%3DabjmEQ4lUM3QQM",
     },
@@ -33,7 +35,7 @@ const Workouts = () => {
       description: "High-intensity interval training for maximum calorie burn",
       duration: "30 mins",
       level: "Advanced",
-      image: "/images/hiit-cardio.jpg",
+
       imageCredit:
         "https://www.google.com/search?q=high%20intensity%20interval%20training&hl=en&udm=2&tbs=rimg:CXalH96T-wpsYWu8DLoM8xSlsgIAwAIA2AIA4AIA&cs=1&sa=X&ved=0CB4QuIIBahcKEwj40OL_2vSKAxUAAAAAHQAAAAAQBw&biw=1920&bih=997&dpr=1#vhid=xdgNfXTNNnSLHM&vssid=mosaic",
     },
