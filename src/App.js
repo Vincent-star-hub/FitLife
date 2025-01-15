@@ -24,16 +24,10 @@ const App = () => {
         <header className="bg-white shadow-md">
           <nav className="container mx-auto px-4 py-4">
             <div className="flex justify-between items-center">
-              <Link to="/" className="flex items-center space-x-2">
+              <Link to="/FitLife" className="flex items-center space-x-2">
                 <Activity className="text-blue-600 w-8 h-8" />
-                {/* <img
-                  src="/images/fitlife-logo.png"
-                  alt="FitLife Logo"
-                  className="text-blue-600 w-10 h-10"
-                /> */}
                 <span className="text-xl font-bold text-gray-800">FitLife</span>
               </Link>
-
               {/* Mobile menu button */}
               <button
                 className="md:hidden"
