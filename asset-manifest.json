@@ -1,17 +1,33 @@
 {
   "files": {
-    "main.css": "/FitLife/static/css/main.8b70a390.css",
-    "main.js": "/FitLife/static/js/main.ef174c96.js",
-    "static/js/373.2200ee5a.chunk.js": "/FitLife/static/js/373.2200ee5a.chunk.js",
-    "static/media/strength-training.jpg": "/FitLife/static/media/strength-training.cffe739fdfd8f75f50fd.jpg",
-    "static/media/beginner-fullbody.jpg": "/FitLife/static/media/beginner-fullbody.eaf5827df90f9b8094d4.jpg",
-    "index.html": "/FitLife/index.html",
-    "main.8b70a390.css.map": "/FitLife/static/css/main.8b70a390.css.map",
-    "main.ef174c96.js.map": "/FitLife/static/js/main.ef174c96.js.map",
-    "373.2200ee5a.chunk.js.map": "/FitLife/static/js/373.2200ee5a.chunk.js.map"
+    "main.css": "/fitlife/static/css/main.8b70a390.css",
+    "main.js": "/fitlife/static/js/main.958bbd89.js",
+    "static/js/373.98560902.chunk.js": "/fitlife/static/js/373.98560902.chunk.js",
+    "static/media/strength-builder.jpg": "/fitlife/static/media/strength-builder.ba2320fd631b59da7c11.jpg",
+    "static/media/cardio-and-core.jpg": "/fitlife/static/media/cardio-and-core.2731c49677840c06b573.jpg",
+    "static/media/cardio-burn.jpg": "/fitlife/static/media/cardio-burn.504fb49346f21593d591.jpg",
+    "static/media/nutrition-tips.jpg": "/fitlife/static/media/nutrition-tips.5e9ba19d639f5755b35a.jpg",
+    "static/media/meal-plans.jpg": "/fitlife/static/media/meal-plans.25bd11d76087d74064a7.jpg",
+    "static/media/hiit-cardio.jpg": "/fitlife/static/media/hiit-cardio.2f6068929faecc256fc9.jpg",
+    "static/media/avocado-toast-egg.jpg": "/fitlife/static/media/avocado-toast-egg.506a3cf2d9c3f89b3ee0.jpg",
+    "static/media/bodyweight-training.jpg": "/fitlife/static/media/bodyweight-training.a70f6bda8a003c837e38.jpg",
+    "static/media/healthy-recipes.jpg": "/fitlife/static/media/healthy-recipes.3c5ccf2233d2431fdff9.jpg",
+    "static/media/strength-training.jpg": "/fitlife/static/media/strength-training.cffe739fdfd8f75f50fd.jpg",
+    "static/media/endurance-builder.jpg": "/fitlife/static/media/endurance-builder.044910e69f60d0a03798.jpg",
+    "static/media/beginner-fullbody.jpg": "/fitlife/static/media/beginner-fullbody.63bc6981fd54cab0347b.jpg",
+    "static/media/nutritionist1.jpg": "/fitlife/static/media/nutritionist1.0e1ec6a1c7a4d4b245ef.jpg",
+    "static/media/full-body-mobility.jpg": "/fitlife/static/media/full-body-mobility.17ae147918ace1c7e93f.jpg",
+    "static/media/trainer1.jpg": "/fitlife/static/media/trainer1.7ab8148d3922a3d0fe7f.jpg",
+    "static/media/yoga-relaxation.jpg": "/fitlife/static/media/yoga-relaxation.b2616d711604d45602f9.jpg",
+    "static/media/fitlife-logo.png": "/fitlife/static/media/fitlife-logo.3d91e320fb2ca9366c26.png",
+    "static/media/advanced-strength-circuit.jpg": "/fitlife/static/media/advanced-strength-circuit.de10a5350a708f141bf3.jpg",
+    "index.html": "/fitlife/index.html",
+    "main.8b70a390.css.map": "/fitlife/static/css/main.8b70a390.css.map",
+    "main.958bbd89.js.map": "/fitlife/static/js/main.958bbd89.js.map",
+    "373.98560902.chunk.js.map": "/fitlife/static/js/373.98560902.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b70a390.css",
-    "static/js/main.ef174c96.js"
+    "static/js/main.958bbd89.js"
   ]
 }
