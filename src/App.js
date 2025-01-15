@@ -1,10 +1,11 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   useNavigate,
 } from "react-router-dom";
+
 import { Activity, Menu, X, Face } from "lucide-react";
 import Home from "./components/Home";
 import Workouts from "./components/Workouts";
@@ -58,7 +59,7 @@ const App = () => {
 
         <main className="container mx-auto px-4 py-8">
           <Routes>
-            <Route path="/FitLife" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/workouts" element={<Workouts />} />
             <Route path="/nutrition" element={<Nutrition />} />
             <Route path="/healthtips" element={<HealthTips />} />
@@ -140,7 +141,7 @@ const NavLinks = ({ mobile, footer, setIsMenuOpen }) => {
     <>
       <button
         className={`${baseClasses}`}
-        onClick={() => handleNavigation("/FitLife")}
+        onClick={() => handleNavigation("/home")}
       >
         Home
       </button>

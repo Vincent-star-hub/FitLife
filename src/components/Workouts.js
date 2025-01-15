@@ -2,6 +2,17 @@ import React, { useState } from "react";
 import WorkoutDetails from "./Workouts/WorkoutDetails";
 import beginnerImage from "../images/beginner-fullbody.jpg";
 import strengthTraining from "../images/strength-training.jpg";
+import yogaTrain from "../images/yoga-relaxation.jpg";
+import hiitCardio1 from "../images/hiit-cardio.jpg";
+import beginnerFullBody from "../images/workouts/beginner-fullbody.jpg";
+import cardioBurn from "../images/workouts/cardio-burn.jpg";
+import bodyweightStrength from "../images/workouts/bodyweight-training.jpg";
+import hiitCardio2 from "../images/workouts/hiit-cardio.jpg";
+import strengthBuilder from "../images/workouts/strength-builder.jpg";
+import advancedStrengthCircuit from "../images/workouts/advanced-strength-circuit.jpg";
+import enduranceBuilder from "../images/workouts/endurance-builder.jpg";
+import fullBodyMobility from "../images/workouts/full-body-mobility.jpg";
+import cardioAndCore from "../images/workouts/cardio-and-core.jpg";
 
 const Workouts = () => {
   const [showRecommendations, setShowRecommendations] = useState(false);
@@ -35,7 +46,7 @@ const Workouts = () => {
       description: "High-intensity interval training for maximum calorie burn",
       duration: "30 mins",
       level: "Advanced",
-
+      image: hiitCardio1,
       imageCredit:
         "https://www.google.com/search?q=high%20intensity%20interval%20training&hl=en&udm=2&tbs=rimg:CXalH96T-wpsYWu8DLoM8xSlsgIAwAIA2AIA4AIA&cs=1&sa=X&ved=0CB4QuIIBahcKEwj40OL_2vSKAxUAAAAAHQAAAAAQBw&biw=1920&bih=997&dpr=1#vhid=xdgNfXTNNnSLHM&vssid=mosaic",
     },
@@ -44,7 +55,7 @@ const Workouts = () => {
       description: "Improve flexibility and reduce stress",
       duration: "45 mins",
       level: "All Levels",
-      image: "/images/yoga-relaxation.jpg",
+      image: yogaTrain,
       imageCredit:
         "https://www.google.com/search?q=yoga%20image&hl=en&udm=2&tbs=rimg:CVGXtvjfdVeOYZCz_19KoJHWTsgIAwAIA2AIA4AIA&cs=1&sa=X&ved=0CCAQuIIBahcKEwig2Nfm2PSKAxUAAAAAHQAAAAAQPw&biw=1920&bih=997&dpr=1#vhid=zlA1FtQQ8WTfMM&vssid=mosaic",
     },
@@ -65,7 +76,7 @@ const Workouts = () => {
         "Rest - 60 seconds",
         "Repeat 3 times",
       ],
-      image: "/images/workouts/beginner-fullbody.jpg", // Add image URL
+      image: beginnerFullBody, // Add image URL
       imageCredit:
         "https://www.bodybuilding.com/content/the-ultimate-beginners-full-body-workout.html",
       sourceURL:
@@ -86,7 +97,7 @@ const Workouts = () => {
         "Rest - 30 seconds",
         "Repeat 4 times",
       ],
-      image: "/images/workouts/cardio-burn.jpg", // Add image URL
+      image: cardioBurn,
       imageCredit:
         "https://unsplash.com/photos/man-tying-his-shoes-d3bYmnZ0ank",
       sourceURL:
@@ -107,7 +118,7 @@ const Workouts = () => {
         "Rest - 30 seconds",
         "Repeat 3 times",
       ],
-      image: "/images/workouts/hiit-cardio.jpg", // Add image URL
+      image: hiitCardio2,
       imageCredit:
         "https://www.happiesthealth.com/articles/wellness-programmes/cardio-yoga-guide",
       sourceURL:
@@ -128,7 +139,9 @@ const Workouts = () => {
         "Plank - Hold for 30 seconds",
         "Repeat 3 times",
       ],
-      image: "/images/workouts/bodyweight-training.jpg", // Add image URL
+      image: bodyweightStrength,
+      imageCredit:
+        "https://www.google.com/search?sca_esv=aa5aa35c323c7bba&q=Bodyweight+Strength+Training&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J603JUkR9Y5suk8yuy50qOa0K08TrPholP8ECM8ELoq5GeRrUvU44UjKtPgUX-2DV1UQVKIioKq9YP8hjr2s4XGUs7BYUWgrA1zGzjnSuLz0Rv9SOxJBYa2HuYoyuz0gUJ8I_0DE-GtDv_SDOIZzgEUF8lIMmGKJCeFzaPcqEnsoKlWNMQ&sa=X&ved=2ahUKEwiMj8296faKAxXtmq8BHc5JPSwQtKgLegQIEBAB&biw=1280&bih=941&dpr=1#vhid=myqA2JppqGMo-M&vssid=mosaic",
       sourceURL: "https://sochi.edu/top-10-benefits-of-bodyweight-training/",
     },
 
@@ -146,7 +159,7 @@ const Workouts = () => {
         "Rest - 45 seconds",
         "Repeat 4 times",
       ],
-      image: "/images/workouts/strength-builder.jpg", // Add image URL
+      image: strengthBuilder,
       imageCredit:
         "https://unsplash.com/photos/person-weightlifting-painting-vqDAUejnwKw",
       sourceURL:
@@ -167,7 +180,7 @@ const Workouts = () => {
         "Rest - 1 minute",
         "Repeat 4 times",
       ],
-      image: "/images/workouts/advanced-strength-circuit.jpg", // Add image URL
+      image: advancedStrengthCircuit,
       imageCredit:
         "https://www.livestrong.com/article/332111-how-effective-is-circuit-training-vs-lifting-weights/",
       sourceURL:
@@ -188,8 +201,10 @@ const Workouts = () => {
         "Rest - 1 minute",
         "Repeat 3 times",
       ],
-      image: "/images/workouts/full-body-mobility.jpg", // Add image URL
-      credit:
+      image: fullBodyMobility,
+      imageCredit:
+        "https://www.google.com/search?q=full%20body%20mobility&udm=2&tbs=rimg:Cary5CMf1WX1Yb4BsRJh1F3lsgIAwAIA2AIA4AIA&cs=1&hl=en&sa=X&ved=0CCgQuIIBahcKEwiYjIWN4PeKAxUAAAAAHQAAAAAQfg&biw=1920&bih=997&dpr=1#vhid=Ejp6tvIcKamyOM&vssid=mosaic",
+      sourceURL:
         "https://nutritiouslife.com/sweat-often/mobility-training-for-beginners/",
     },
 
@@ -207,6 +222,11 @@ const Workouts = () => {
         "Rest - 30 seconds",
         "Repeat 4 times",
       ],
+      image: cardioAndCore,
+      imageCredit:
+        "https://unsplash.com/photos/woman-exercising-indoors-lrQPTQs7nQQ",
+      sourceURL:
+        "https://www.healthline.com/health/core-strength-more-important-than-muscular-arms",
     },
 
     // General Fitness (Advanced)
@@ -223,7 +243,7 @@ const Workouts = () => {
         "Rest - 30 seconds",
         "Repeat 5 times",
       ],
-      image: "/images/workouts/endurance-builder.jpg", // Add image URL
+      image: enduranceBuilder,
       imageCredit:
         "https://southcambridgephysio.co.uk/2022/06/24/running-guide/",
       sourceURL:

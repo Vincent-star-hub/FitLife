@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import avocadoToastWithEgg from "../images/avocado-toast-egg.jpg";
+import healthyRecipes from "../images/healthy-recipes.jpg";
+import mealPlans from "../images/meal-plans.jpg";
+import nutritionTips from "../images/nutrition-tips.jpg";
 
 const Nutrition = () => {
   const [showMealPlans, setShowMealPlans] = useState(false);
@@ -7,7 +11,7 @@ const Nutrition = () => {
     title: "Avocado Toast with Egg",
     description:
       "A high-protein breakfast to kickstart your day. Quick and easy to prepare, this recipe is perfect for busy mornings.",
-    image: "images/avocado-toast-egg.jpg",
+    image: avocadoToastWithEgg,
     calories: 250,
     protein: "12g",
     carbs: "20g",
@@ -18,18 +22,18 @@ const Nutrition = () => {
     {
       title: "Healthy Recipes",
       description: "Quick and easy-to-make meals for your fitness goals.",
-      image: "images/healthy-recipes.jpg",
+      image: healthyRecipes,
     },
     {
       title: "Meal Plans",
       description:
         "Weekly plans tailored to weight loss, muscle gain, and more.",
-      image: "images/meal-plans.jpg",
+      image: mealPlans,
     },
     {
       title: "Nutrition Tips",
       description: "Learn portion control, meal prep, and nutrient timing.",
-      image: "images/nutrition-tips.jpg",
+      image: nutritionTips,
     },
   ];
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
+import FitLifeLogo from "../images/fitlife-logo.png";
 import {
   Dumbbell,
   Coffee,
@@ -28,11 +29,7 @@ const Home = () => {
     <div className="max-w-4xl mx-auto text-center">
       {/* Logo */}
       <div className="flex justify-center mb-4">
-        <img
-          src="/images/fitlife-logo.png"
-          alt="FitLife Logo"
-          className="w-28 h-28"
-        />
+        <img src={FitLifeLogo} alt="FitLife Logo" className="w-28 h-28" />
       </div>
 
       {/* Hero Section */}

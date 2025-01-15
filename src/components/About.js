@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import johnDoe from "../images/trainer1.jpg";
+import janeSmith from "../images/nutritionist1.jpg";
 
 const About = () => {
   const navigate = useNavigate();
@@ -37,7 +39,7 @@ const About = () => {
           <div className="flex space-x-6 mb-4">
             <div className="text-center">
               <img
-                src="/images/trainer1.jpg"
+                src={johnDoe}
                 alt="Trainer 1"
                 className="w-24 h-24 rounded-full mx-auto mb-2"
               />
@@ -46,7 +48,7 @@ const About = () => {
             </div>
             <div className="text-center">
               <img
-                src="/images/nutritionist1.jpg"
+                src={janeSmith}
                 alt="Nutritionist 1"
                 className="w-24 h-24 rounded-full mx-auto mb-2"
               />
