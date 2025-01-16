@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"; // Import useNavigate
 import FitLifeLogo from "../images/fitlife-logo.png";
 import {
   Dumbbell,
-  Coffee,
+  Beef,
   Monitor,
   Smile,
   Star,
@@ -47,7 +47,7 @@ const Home = () => {
         />
 
         <FeatureCard
-          icon={<Coffee className="w-12 h-12 text-blue-600" />}
+          icon={<Beef className="w-12 h-12 text-blue-600" />}
           title="Nutrition Guides"
           description="Discover healthy recipes and meal plans tailored to your goals"
         />
