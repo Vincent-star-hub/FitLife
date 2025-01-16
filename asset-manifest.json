@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FitLife/static/css/main.a71d4d20.css",
-    "main.js": "/FitLife/static/js/main.79faac75.js",
+    "main.js": "/FitLife/static/js/main.fe7041c5.js",
     "static/js/373.98560902.chunk.js": "/FitLife/static/js/373.98560902.chunk.js",
     "static/media/strength-builder.jpg": "/FitLife/static/media/strength-builder.ba2320fd631b59da7c11.jpg",
     "static/media/cardio-and-core.jpg": "/FitLife/static/media/cardio-and-core.2731c49677840c06b573.jpg",
@@ -23,11 +23,11 @@
     "static/media/advanced-strength-circuit.jpg": "/FitLife/static/media/advanced-strength-circuit.de10a5350a708f141bf3.jpg",
     "index.html": "/FitLife/index.html",
     "main.a71d4d20.css.map": "/FitLife/static/css/main.a71d4d20.css.map",
-    "main.79faac75.js.map": "/FitLife/static/js/main.79faac75.js.map",
+    "main.fe7041c5.js.map": "/FitLife/static/js/main.fe7041c5.js.map",
     "373.98560902.chunk.js.map": "/FitLife/static/js/373.98560902.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a71d4d20.css",
-    "static/js/main.79faac75.js"
+    "static/js/main.fe7041c5.js"
   ]
 }
